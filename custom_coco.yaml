@@ -1,13 +1,11 @@
 
-
-train: C:/Users/Daria/PycharmProjects/newProject/trainingBuilding_data/images/train  # train images (relative to 'path') 128 images
-val: C:/Users/Daria/PycharmProjects/newProject/trainingBuilding_data/images/val  # val images (relative to 'path') 128 images
+train: trainingBuilding_data/images/train  # train images (relative to 'path') 128 images
+val: trainingBuilding_data/images/val  # val images (relative to 'path') 128 images
 
 
 # Classes
-names:
-  0: Exposure
-  1: Force Crack
-  2: Cracking
-  3: Biodestruction
+
+
+nc: 5
+names: ['Exposure', 'Force Crack', 'Cracking', 'Biodestruction', 'Infiltration', 'Freezing', 'Violation Of Technology', 'Repair', 'Burnout', 'Efflorescence']
 
