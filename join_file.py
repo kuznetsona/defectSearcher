@@ -24,7 +24,7 @@ def process_files(first_folder, second_folder):
                         second_file.write(line)
 
 
-first_folder = 'C:/Users/Daria/OneDrive/Рабочий стол/Diplom/Dishonest_train/trainBuild_8cl_dishonest_p1/labels/val'
-second_folder = 'C:/Users/Daria/OneDrive/Рабочий стол/Diplom/dishonest_p1/dishonest_p1'
+first_folder = 'trainBuild_8cl_dishonest_p1/labels/val'
+second_folder = 'dishonest_p1/dishonest_p1'
 
 process_files(first_folder, second_folder)
